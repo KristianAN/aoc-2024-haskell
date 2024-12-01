@@ -1,0 +1,31 @@
+cabal-version:   3.0
+name:            aoc 
+version:         0.1.0.0
+license:         NONE
+author:          Joe
+maintainer:      joe@example.com
+build-type:      Simple
+
+common warnings
+    ghc-options: -Wall
+
+library aoc-lib
+  hs-source-dirs: lib
+  build-depends:
+    base, 
+    text,
+    containers,
+    megaparsec
+  exposed-modules:
+    Solutions
+  default-language: GHC2021
+
+executable aoc
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    
+      base,
+      text,
+      aoc-lib
+    hs-source-dirs:   src
+    default-language: GHC2021
