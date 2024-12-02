@@ -17,6 +17,7 @@ library aoc-lib
     containers,
     gigaparsec
   other-modules:
+    Utils
     Day.DayOne
     Day.DayTwo
   exposed-modules:
