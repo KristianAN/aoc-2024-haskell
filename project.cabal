@@ -15,7 +15,10 @@ library aoc-lib
     base, 
     text,
     containers,
-    megaparsec
+    gigaparsec
+  other-modules:
+    Day.DayOne
+    Day.DayTwo
   exposed-modules:
     Solutions
   default-language: GHC2021
