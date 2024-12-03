@@ -15,11 +15,13 @@ library aoc-lib
     base, 
     text,
     containers,
+    split,
     gigaparsec
   other-modules:
     Utils
     Day.DayOne
     Day.DayTwo
+    Day.DayThree
   exposed-modules:
     Solutions
   default-language: GHC2021
