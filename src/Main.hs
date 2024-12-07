@@ -1,6 +1,6 @@
 module Main where
 
-import Solutions (printDayOneOne, printDayOneTwo, printDayThreeOne, printDayTwoOne, printDayTwoTwo)
+import Solutions (printDayFourOne, printDayOneOne, printDayOneTwo, printDayThreeOne, printDayTwoOne, printDayTwoTwo)
 
 readDay :: Int -> IO String
 readDay n = do
@@ -9,5 +9,5 @@ readDay n = do
 
 main :: IO ()
 main = do
-  one <- readDay 2
-  printDayThreeOne
+  one <- readDay 4
+  printDayFourOne one

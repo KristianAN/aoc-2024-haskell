@@ -22,6 +22,7 @@ library aoc-lib
     Day.DayOne
     Day.DayTwo
     Day.DayThree
+    Day.DayFour
   exposed-modules:
     Solutions
   default-language: GHC2021
